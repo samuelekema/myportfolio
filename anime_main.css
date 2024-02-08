@@ -28,9 +28,10 @@
     padding-right: 20px;
     position: fixed;
     z-index: 2000;
+    white-space: nowrap;
 }
 
-.right-nav a{
+.search-option a{
     margin: 0 20px;
     color: black;
     font-size: 20px;
@@ -38,33 +39,48 @@
     transition: all 1s;
 }
 
-.right-nav a:hover{
+.search-option a:hover{
     color: blue;
 }
 
 .fa-search{
     cursor: pointer;
+
 }
+
 
 .navbar form{
     position: relative;
     right: 500px;
 }
 
-.navbar form input[type=search]{
-    width: 400px;
+.navbar  .search-option input[type=search]{
+    width: 60%;
     height: 35px;
     padding-left: 15px;
-    display: none;
+    cursor: pointer;
 
 }
 
+.input-opt{
+    display: none;
+}
 
-.navbar form input[type=search]:focus{
+.toggle{
+    display: inline-block;
+    transition: all 1s;
+}
+
+.search-option>*{
+    margin: 8px;
+}
+
+
+.navbar .search-option input[type=search]:focus{
     outline: none;
 }
 
-.navbar form input[type=submit]{
+.navbar .search-option input[type=submit]{
     width: 100px;
     height: 35px;
     border-radius: 5px;
@@ -73,11 +89,10 @@
     background-color: blue;
     transition: all 1s ease-in-out;
     color: white;
-    display: none;
 }
 
 
-.navbar form input[type=submit]:hover{
+.navbar .search-option input[type=submit]:hover{
     background-color: darkblue;
 }
 
@@ -231,3 +246,8 @@
 }
 
 
+@media(max-width:450px){
+    .navbar{
+        padding: 0;
+    }
+}

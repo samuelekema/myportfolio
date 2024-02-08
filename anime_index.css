@@ -105,6 +105,10 @@
     text-align: center;
 }
 
+#started-btn{
+    margin: 15px;
+}
+
 .main-section .title h1{
     text-shadow: 
     0 0 1px black,
