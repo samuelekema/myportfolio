@@ -27,6 +27,11 @@
     justify-content: center;
 }
 
+.service-title ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 .service-title h1{
     color: white;
     text-shadow:
