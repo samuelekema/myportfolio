@@ -9,14 +9,20 @@
 
 
 #welcome{
-    max-width: 100%;
-    height: 100vh;
     background-image: url(images/stars-bg.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
+    height: 100vh;
+    max-width: 100%;
 }
+
+.container{
+    background-color: black;
+}
+
+
 
 .welcome-wrapper{
     display: flex;
@@ -277,6 +283,18 @@
     position: relative;
 }
 
+.my-picture img{
+    width: 350px;
+    height: 300px;
+}
+
+.my-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 .about-title{
     display: flex;
     justify-content: center;
@@ -319,18 +337,6 @@
 }
 
 
-.my-picture{
-    padding-left: 50px;
-    background-color: black;
-
-}
-
-.my-picture img{
-    width: 400px;
-    height: 390px;
-    
-}
-
 .about-me p {
     width: 300px;
 }
@@ -359,7 +365,6 @@
     color: white;
     max-width: 100%;
     height: 100vh;
-    position: relative;
 }
 
 #skills .skills-title{
@@ -671,17 +676,6 @@ textarea{
         grid-template-rows: repeat(2, 1fr);
     }
 
-    .my-picture{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .my-picture img{
-        display: inline-block;
-    }
-
 
     .projects-grid{
         display: grid;
@@ -717,17 +711,6 @@ textarea{
 
     #home{
         height: 80vh;
-    }
-
-    #skills{
-        height: 80vh;
-    }
-    .my-picture, .about-grid{
-        height: 60vh;
-    }
-
-    #about{
-        height: 60vh;
     }
 
    
