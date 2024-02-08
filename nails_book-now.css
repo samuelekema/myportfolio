@@ -27,11 +27,14 @@
     justify-content: center;
 }
 
-.service-title ul li a{
+.services-provided a{
     text-decoration: none;
     color: white;
 }
 
+.services-provided button li{
+    color: white;
+}
 .service-title h1{
     color: white;
     text-shadow:
