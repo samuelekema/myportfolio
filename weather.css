@@ -13,10 +13,6 @@ html{
     height: 100vh;
 }
 
-.off-screen{
-    animation: Fade 1s;
-    animation-fill-mode: forwards;
-}
 
 @keyframes Fade{
     0%{transform: translateX(20vw);}
@@ -28,11 +24,6 @@ html{
     }
 }
 
-.off-screen2{
-    animation: Fade2 1s;
-    animation-fill-mode: forwards;
-    display: none;
-}
 
 @keyframes Fade2{
     0%{transform: translateX(20vw);}
@@ -209,7 +200,7 @@ html{
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    display: none;
+    display: inline-block;
 }
 
 .lock{
