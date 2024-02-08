@@ -5,7 +5,6 @@
 }
 
 html{
-    overflow: hidden;
     background-color: black;
 }
 
@@ -177,9 +176,15 @@ html{
     margin-top: 10px;
 }
 
+.go-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 .go-btn button{
     width: 110px;
 }
+
 .fa-arrow-right{
     animation: foward 1s linear;
     animation-iteration-count: infinite;
