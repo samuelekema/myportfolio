@@ -1,3 +1,5 @@
+
+alert("This is a nail saloon site. Built with HTML CSS and JS. Has modern pages such as login pages and appointment pages")
 //BACKGROUND SLIDE//
 let index = 0;
 displayImages();
